@@ -87,91 +87,10 @@ navigation. This website contains my latest:
 
 ----
 
-*******************
- Latest Blog Posts
-*******************
-
-.. postlist:: 5
-   :category: Blog Post
-   :date: %A, %B %d, %Y
-   :format: {date}: {title}
-   :excerpts:
-   :expand: Read more ...
-
-************************
- Latest Paper Preprints
-************************
-
-.. postlist:: 5
-   :category: Paper
-   :date: %A, %B %d, %Y
-   :format: {date}: {title}
-   :excerpts:
-   :expand: Read more ...
-
-********************
- Other Site Updates
-********************
-
-Book Summaries
-===============
-
-.. postlist:: 5
-   :category: Book Summary
-   :date: %A, %B %d, %Y
-   :format: {date}: {title}
-   :excerpts:
-   :expand: Read more ...
-
-..
-   Toctrees for the side bars
-
 .. toctree::
    :glob:
    :hidden:
    :maxdepth: 2
-   :caption: Book Summaries
+   :caption: Book Chapters
 
-   All Book Summaries <book_summaries/index>
-   book_summaries/*
-
-.. toctree::
-   :glob:
-   :hidden:
-   :maxdepth: 2
-   :caption: Blog Posts
-
-   All Blog Posts <blog_posts/index>
-   blog_posts/*
-
-.. toctree::
-   :glob:
-   :hidden:
-   :maxdepth: 2
-   :caption: Papers
-
-   All Papers <papers/index>
-   papers/*
-
-.. toctree::
-   :glob:
-   :hidden:
-   :maxdepth: 2
-   :caption: Portfolio
-
-   Overview <portfolio/index>
-   portfolio/*
-
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Socials
-
-   🐦 Bluesky <https://bsky.app/profile/nicholassynovic.bsky.social>
-   📢 Facebook <https://www.facebook.com/nsynovic>
-   📘 GoodReads <https://www.goodreads.com/user/show/121365011-nicholas-synovic>
-   📷 Instagram <https://www.instagram.com/nicholas_synovic>
-   🪡 Threads <https://www.threads.com/@nicholas_synovic>
-   💬 X <https://x.com/NMSynovic>
-   🎥 Youtube <https://www.youtube.com/@nicholassynovic>
+   chapters/*
