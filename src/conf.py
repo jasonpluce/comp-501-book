@@ -12,24 +12,19 @@ Copyright (C) 2025 Nicholas M. Synovic.
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Nicholas M. Synovic's Blog"
-copyright = "2025, Nicholas M. Synovic"  # noqa: A001
-author = "Nicholas M. Synovic"
+project = "COMP 501 Book"
+copyright = "2025, Loyola University Chicago Computer Science Department"  # noqa: A001
+author = "Loyola University Chicago Computer Science Department"
 release = "0.0.1"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "ablog",
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.intersphinx",
     "sphinx.ext.todo",
-    "sphinx_copybutton",
-    "sphinx_design",
-    "sphinx_togglebutton",
-    "sphinxcontrib.bibtex",
-    "sphinxcontrib.youtube",
+    "sphinx_copybutton"
 ]
 
 templates_path = ["_templates"]
@@ -37,19 +32,6 @@ exclude_patterns = []
 
 # sphinx.ext.todo options
 todo_include_todos = True
-
-# Ablog configuration options
-blog_authors = {
-    "NMS": ("Nicholas M. Synovic", "https://nicholassynovic.github.io/"),
-}
-blog_default_author = "NMS"
-blog_languages = {
-    "en": ("English", None),
-}
-blog_default_language = "en"
-post_show_prev_next = False
-blog_title = "Nicholas M. Synovic's Blog"
-blog_feed_fulltext = True
 
 # Sphinx auto section label settings
 autosectionlabel_prefix_document = True
@@ -68,30 +50,13 @@ html_css_files = ["custom.css"]
 
 # Sphinx Book Theme Settings
 html_theme_options = {
-    "repository_url": "https://github.com/NicholasSynovic/nicholassynovic.github.io",
+    "repository_url": "https://github.com/NicholasSynovic/comp-501-book",
     "use_repository_button": True,
     "show_navbar_depth": 0,
     "max_navbar_depth": 2,
-    "collapse_navbar": True,
+    "collapse_navbar": False,
     "use_sidenotes": True,
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/NicholasSynovic",
-            "icon": "fa-brands fa-github",
-        },
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/nsynovic",
-            "icon": "fa-brands fa-linkedin",
-        },
-        {
-            "name": "Google Scholar",
-            "url": "https://scholar.google.com/citations?user=H3VvTOIAAAAJ&hl=en",
-            "icon": "fa-brands fa-google-scholar",
-        },
-    ],
 }
 html_title = project
-html_logo = "_static/images/headshot.png"
-html_favicon = "_static/favicon.png"
+# html_logo = "_static/images/headshot.png"
+# html_favicon = "_static/favicon.png"

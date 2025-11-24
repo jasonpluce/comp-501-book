@@ -1,30 +1,26 @@
 [project]
 name = "src"
 version = "0.0.1"
-description = "Nicholas M. Synovic's Website"
+description = "COMP 501 Book"
 authors = [{ name = "Nicholas M. Synovic", email = "nicholas.synovic@gmail.com" }]
 requires-python = "~=3.13"
 readme = "README.md"
-keywords = ["website", "github-pages"]
+keywords = ["website", "github-pages", "book"]
 classifiers = [
     "Development Status :: 1 - Planning",
     "License :: OSI Approved :: GNU Affero General Public License v3",
     "Programming Language :: Python :: 3.13"
 ]
 dependencies = [
-    "ablog>=0.11.12",
     "sphinx>=8.2.3",
     "sphinx-book-theme>=1.1.4",
     "sphinx-copybutton>=0.5.2",
-    "sphinx-design>=0.6.1",
-    "sphinx-togglebutton>=0.3.2",
     "sphinxcontrib-bibtex>=2.6.5",
-    "sphinxcontrib-youtube>=1.4.1",
 ]
 
 [project.urls]
-Homepage = "https://github.com/NicholasSynovic/nicholassynovic.github.io"
-Repository = "https://github.com/NicholasSynovic/nicholassynovic.github.io"
+Homepage = "https://github.com/NicholasSynovic/comp-501-book"
+Repository = "https://github.com/NicholasSynovic/comp-501-book"
 
 [build-system]
 requires = ["hatchling"]
