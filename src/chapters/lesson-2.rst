@@ -1,8 +1,6 @@
 Lesson 2: Intro to Hardware & Software
 ======================================
 
-**Owner:** Pautsch, Erik (PE) **Reviewer:** Luce, Jason (LJ)
-
 --------------
 
 Learning Objectives
