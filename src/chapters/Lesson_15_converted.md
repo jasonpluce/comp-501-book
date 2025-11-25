@@ -1,7 +1,3 @@
-Below is the **Markdown conversion of Lesson 15.pdf** (), with **no commentary**, **no interpretation**, and **structure preserved exactly**.
-
----
-
 # Lesson 15: User Inputs & Events
 
 ## Introduction
@@ -154,6 +150,3 @@ The `input()` function introduced the concept of interactive control flow, where
 Taken together, these input methods form the foundation of all interactive and data-driven applications. They allow Python programs to communicate with the outside world, adapt to new information, and serve as bridges between users, files, and other systems. Mastering these skills prepares us to handle more advanced concepts such as data validation, control structures, and error handling—techniques that ensure our programs not only accept input but also interpret and respond to it intelligently. As we move forward, we will focus on transforming user and file input into meaningful program behavior through the careful application of logic and structure.
 
 ---
-
-If you'd like, I can also package this Markdown into a downloadable `.md` file.
-
